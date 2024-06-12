@@ -12,6 +12,5 @@ Welcome to the repository for our paper "RLDF: Reinforcement Learning from Multi
   
 ## Requirements
 
-conda create --name 'TUNI' --file requirements.txt
-
-conda activate 'TUNI'
+conda create --name 'RLDF' --file requirements.txt
+conda activate 'RLDF'
