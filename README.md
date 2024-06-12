@@ -43,15 +43,17 @@ conda activate 'RLDF'
     2.1 `pip install -r llm_requirements.txt`  
         `conda activate llm`  
         `cd rl-finetuning`.
-    
+
+
    
     2.2 Run `rl-finetuning\src\run_llama2_7b_multi_role.sh`
 
-3. Predict
+2. Predict
    
     3.1 `conda activate llama_factory`  
         `cd reward-model-training`.
-   
+
+
    
     3.2 Run `reward-model-training\do_predict_RLDF_multi_role.sh`
 
