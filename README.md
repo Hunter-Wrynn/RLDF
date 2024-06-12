@@ -20,3 +20,36 @@ conda activate 'RLDF'
 
 + The datasets used in our experiments are constructed through our provided code. You can generate the datasets using ‘API/data.py’ or ‘OSS/data.py’
 + Our main models used in the experiments are llama2-7B and chatglm-6B. These models need to be downloaded separately.
+
+## RL
+Reward Model Training
+
+1.1 pip install -r llama_factory_requirements.txt
+
+​ conda activate llama_factory
+
+​ cd reward-model-training
+
+1.2 Download LLaMA2-7b, Qwen1.5-7b, ChatGLM3-6B, Baichuan2-7B to "base-model" folder
+
+1.3 run "train_rm_multi_role.sh" and "train_sft_multi_role.sh" separately.
+
+1.4 run "merge_rm_lora_multi_role.sh" and "merge_sft_lora_multi_role.sh" separately.
+
+RL Finetuning
+
+​ 2.1 pip install -r llm_requirements.txt
+
+​ conda activate llm
+
+​ cd rl-finetuning
+
+​ 2.2 run rl-finetuning\src\run_llama2_7b_multi_role.sh
+
+Predict
+
+3.1 conda activate llama_factory
+
+​ cd reward-model-training
+
+​ 3.2 run reward-model-training\do_predict_RLDF_multi_role.sh
