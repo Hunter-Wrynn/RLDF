@@ -10,3 +10,8 @@ Welcome to the repository for our paper "RLDF: Reinforcement Learning from Multi
 + Reward Model Training: Implementation of the reward model training process using the constructed datasets.
 + Reinforcement Learning Fine-Tuning: Scripts for fine-tuning the LLM using PPO, guided by the reward model.
   
+## Requirements
+
+conda create --name 'TUNI' --file requirements.txt
+
+conda activate 'TUNI'
