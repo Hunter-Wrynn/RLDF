@@ -1,8 +1,8 @@
-## RLDF
+# RLDF
 
 The experimental code of paper "RLDF:Reinforcement Learning from Multi-role Debates as Feedback for Bias Mitigation in LLMs".
 
-# Introduction
+## Introduction
 
 Welcome to the repository for our paper "RLDF: Reinforcement Learning from Multi-role Debates as Feedback for Bias Mitigation in LLMs". This repository contains the implementation of the RLDF methodology, which is designed to reduce biases in large language models (LLMs) through reinforcement learning guided by multi-role debates.
 
