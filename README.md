@@ -24,9 +24,12 @@ conda activate 'RLDF'
 ## RL
 1. Reward Model Training
    
-    1.1 `pip install -r llama_factory_requirements.txt`  
-        `conda activate llama_factory`  
-        `cd reward-model-training`.
+    1.1 `pip install -r llama_factory_requirements.txt`
+   
+        `conda activate llama_factory`
+   
+        `cd reward-model-training`
+         
    
 
     1.2 Download LLaMA2-7b, Qwen1.5-7b, ChatGLM3-6B, Baichuan2-7B to "base-model" folder
